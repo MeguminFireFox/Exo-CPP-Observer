@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Arm.cpp" />
+    <ClCompile Include="BaseDecorator.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="DecoratorExample1.cpp" />
+    <ClCompile Include="DecoratorExample2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arm.hpp" />
+    <ClInclude Include="BaseDecorator.hpp" />
+    <ClInclude Include="DecoratorExample1.hpp" />
+    <ClInclude Include="DecoratorExample2.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

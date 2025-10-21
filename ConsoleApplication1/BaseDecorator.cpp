@@ -6,5 +6,7 @@ BaseDecorator::BaseDecorator(BaseDecorator* nextDecorator) {
 }
 
 void BaseDecorator::DoAction() {
+	if (_wrappee == nullptr) return;
+
 	_wrappee->DoAction();
 }

@@ -1,5 +1,11 @@
 #pragma once
-class DecoratorExample1
+#include <iostream>
+#include "BaseDecorator.hpp"
+
+class DecoratorExample1 : public BaseDecorator
 {
+public:
+	DecoratorExample1(BaseDecorator* nextDecorator) : BaseDecorator(nextDecorator) {};
+	void DoAction() override;
 };
 

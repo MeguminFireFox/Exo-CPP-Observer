@@ -1,0 +1,7 @@
+﻿  Arm.cpp
+  BaseDecorator.cpp
+  ConsoleApplication1.cpp
+  DecoratorExample1.cpp
+  DecoratorExample2.cpp
+C:\Users\spect\Exo-CPP-Observer\ConsoleApplication1\DecoratorExample2.cpp(4,6): error C2653: 'DecoratorExample2' : n'est pas un nom de classe ni d'espace de noms
+  Génération de code en cours...
